@@ -1,0 +1,56 @@
+cff-version: 1.2.0
+title: >-
+  Supplementary material for "A machine-learning surrogate for rapid
+  hazard-zone prediction of n-hexane vapor dispersion from tank overfill"
+message: >-
+  If you use this data or these parameters in work you publish, please cite the
+  journal article in the preferred-citation field below.
+type: dataset
+license: MIT
+repository-code: >-
+  https://github.com/Melionidas31/jlp-hexane-surrogate-supplementary
+abstract: >-
+  Complete parameters of two artificial neural network surrogates of the ALOHA
+  dispersion code, predicting the red, orange and yellow hazard-zone radii of
+  an n-hexane vapour cloud released by tank overfill. Includes the 1,215 and
+  1,261 scenario ALOHA simulation datasets the surrogates were fitted on and a
+  script that checks the parameters against the data.
+keywords:
+  - process safety
+  - surrogate model
+  - ALOHA
+  - dispersion modelling
+  - neural network
+  - n-hexane
+  - hazard zone
+  - reproducibility
+authors:
+  - given-names: M. Zaki
+    family-names: Ramdhan
+  - given-names: Adhitya Ryan
+    family-names: Ramadhani
+  - given-names: Waskito
+    family-names: Pranowo
+preferred-citation:
+  type: article
+  title: >-
+    A machine-learning surrogate for rapid hazard-zone prediction of n-hexane
+    vapor dispersion from tank overfill: Accuracy and robustness limits beyond
+    the training domain
+  authors:
+    - given-names: M. Zaki
+      family-names: Ramdhan
+    - given-names: Adhitya Ryan
+      family-names: Ramadhani
+    - given-names: Waskito
+      family-names: Pranowo
+  journal: Journal of Loss Prevention in the Process Industries
+  volume: 105
+  start: 106245
+  year: 2027
+  month: 1
+  issn: 0950-4230
+  publisher:
+    name: Elsevier
+  doi: 10.1016/j.jlp.2026.106245
+  url: https://doi.org/10.1016/j.jlp.2026.106245

@@ -1,11 +1,20 @@
 Supplementary material for
 
-  Machine-learning surrogates of the ALOHA dispersion code for n-hexane
-  hazard-zone radii  (manuscript JLP-D-26-01452)
+  M. Z. Ramdhan, A. R. Ramadhani and W. Pranowo, "A machine-learning surrogate
+  for rapid hazard-zone prediction of n-hexane vapor dispersion from tank
+  overfill: Accuracy and robustness limits beyond the training domain",
+  Journal of Loss Prevention in the Process Industries, vol. 105, p. 106245,
+  Jan. 2027. doi: 10.1016/j.jlp.2026.106245
 
 Released in response to reviewer comment 1, which asked for the surrogate's
 parameters so that the ANN formulation is reproducible with complete,
 ready-to-implement mathematical expressions.
+
+IF YOU USE THIS DATA OR THESE PARAMETERS IN WORK YOU PUBLISH, PLEASE CITE THE
+PAPER ABOVE. The files are free to use under the MIT licence, and a citation
+is the only thing asked in return. The repository at
+https://github.com/Melionidas31/jlp-hexane-surrogate-supplementary carries the
+reference as BibTeX and as CITATION.cff.
 
 
 CONTENTS
@@ -74,7 +83,7 @@ reproduced only by the split named above for that model.
 
 Network weights were initialised randomly without a fixed seed, so no run of
 the training procedure can be reproduced bit for bit, including by the
-authors. Appendix A of the manuscript bounds the consequence, comparing the
+authors. Appendix A of the paper bounds the consequence, comparing the
 test-set metrics of the released models against those of Table 4. The released
 models are runs of the identical procedure on the identical data.
 

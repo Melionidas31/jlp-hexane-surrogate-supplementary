@@ -2,15 +2,23 @@
 
 Released in response to reviewer comment R1-1, which asked for the ANN
 formulation as complete, ready-to-implement expressions. Parameters, training
-data and a consistency check for the manuscript
+data and a consistency check for the paper
 
-> **A Machine-Learning Surrogate for Rapid Hazard-Zone Prediction of n-Hexane
-> Vapor Dispersion from Tank Overfill: Accuracy and Robustness Limits Beyond
-> the Training Domain**
+> **A machine-learning surrogate for rapid hazard-zone prediction of n-hexane
+> vapor dispersion from tank overfill: Accuracy and robustness limits beyond
+> the training domain**
 >
 > M. Zaki Ramdhan, Adhitya Ryan Ramadhani, Waskito Pranowo
-> *Journal of Loss Prevention in the Process Industries*, manuscript
-> JLP-D-26-01452 (under review)
+> *Journal of Loss Prevention in the Process Industries* **105** (2027) 106245
+> https://doi.org/10.1016/j.jlp.2026.106245
+
+### Using this data in your own work
+
+The files here are free to use under the MIT licence. The one thing asked in
+return is that **if you use this data or these parameters in work you publish,
+you cite the paper above**. [How to cite](#how-to-cite) gives the reference in
+plain text and as BibTeX, and `CITATION.cff` lets GitHub's **Cite this
+repository** button produce it for you.
 
 Two trained ANN surrogates predict the red, orange and yellow hazard-zone radii
 of an n-hexane vapour cloud released by tank overfill, from six scenario
@@ -154,6 +162,42 @@ comes from the order in which floating-point products are accumulated, not from
 rounding in these files. Weights are written with nine significant digits,
 which round-trips 32-bit floating point exactly.
 
+## How to cite
+
+If this data, these parameters or any result derived from them appear in work
+you publish, cite the paper:
+
+> M. Z. Ramdhan, A. R. Ramadhani and W. Pranowo, "A machine-learning surrogate
+> for rapid hazard-zone prediction of n-hexane vapor dispersion from tank
+> overfill: Accuracy and robustness limits beyond the training domain,"
+> *Journal of Loss Prevention in the Process Industries*, vol. 105, p. 106245,
+> Jan. 2027, doi: 10.1016/j.jlp.2026.106245.
+
+```bibtex
+@article{Ramdhan2027,
+  author  = {Ramdhan, M. Zaki and Ramadhani, Adhitya Ryan and Pranowo, Waskito},
+  title   = {A machine-learning surrogate for rapid hazard-zone prediction of
+             n-hexane vapor dispersion from tank overfill: {A}ccuracy and
+             robustness limits beyond the training domain},
+  journal = {Journal of Loss Prevention in the Process Industries},
+  volume  = {105},
+  pages   = {106245},
+  year    = {2027},
+  issn    = {0950-4230},
+  doi     = {10.1016/j.jlp.2026.106245},
+  url     = {https://doi.org/10.1016/j.jlp.2026.106245}
+}
+```
+
+The year is 2027, the issue the article appears in, even though the DOI string
+carries 2026 from the year it was registered.
+
+`CITATION.cff` carries the same reference in machine-readable form, so the
+**Cite this repository** button in the sidebar will generate APA or BibTeX
+directly.
+
 ## License
 
-MIT, see [LICENSE](LICENSE). If you use these files, please cite the paper.
+MIT, see [LICENSE](LICENSE), which covers the files in this repository. Citing
+the paper is a condition of academic practice rather than of the licence, but
+please do it.
